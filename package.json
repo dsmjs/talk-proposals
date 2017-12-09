@@ -1,0 +1,28 @@
+{
+  "name": "talk-proposals",
+  "description": "Submit proposals for topics that you would like to learn about or that you would like to present about",
+  "license": "MIT",
+  "author": "dsmJS",
+  "repository": "dsmjs/talk-proposals",
+  "bugs": "https://github.com/dsmjs/talk-proposals/issues",
+  "homepage": "https://github.com/dsmjs/talk-proposals#readme",
+  "scripts": {
+    "lint:md": "globstar --node -- markdownlint **/*.md",
+    "test": "run-s lint:*",
+    "commitmsg": "validate-commit-msg",
+    "precommit": "npm test"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "2.1.0",
+    "globstar": "1.0.0",
+    "husky": "0.14.3",
+    "markdownlint-cli": "0.5.0",
+    "npm-run-all": "4.1.2",
+    "validate-commit-msg": "2.14.0"
+  }
+}

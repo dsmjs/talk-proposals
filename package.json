@@ -9,7 +9,7 @@
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
-    "commitmsg": "validate-commit-msg",
+    "commitmsg": "commitlint -e",
     "precommit": "npm test"
   },
   "config": {
@@ -18,11 +18,11 @@
     }
   },
   "devDependencies": {
+    "commitlint-config-dsmjs": "1.0.2",
     "cz-conventional-changelog": "2.1.0",
     "globstar": "1.0.0",
     "husky": "1.0.0-rc.2",
     "markdownlint-cli": "0.8.1",
-    "npm-run-all": "4.1.2",
-    "validate-commit-msg": "2.14.0"
+    "npm-run-all": "4.1.2"
   }
 }

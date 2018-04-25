@@ -1,5 +1,7 @@
 # talk-proposals
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dsmjs/talk-proposals.svg)](https://greenkeeper.io/)
+
 Submit proposals for topics that you would like to learn about or that you would
 like to present about
 

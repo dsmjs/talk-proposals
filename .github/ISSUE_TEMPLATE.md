@@ -15,6 +15,14 @@
   don't worry about this being polished. we'll ask for clarification as needed
 -->
 
+### Supporting Info
+
+<!--
+  have additional information that you would like to include? have links to
+  slides/code/video? any of this information is totally optional and could
+  be added after you give the presentation
+-->
+
 ## Scheduling
 
 * is this a talk that you already have prepared or do you still need time to
@@ -29,3 +37,9 @@
 * anything else that would help us decide an appropriate month?
 
 * do you have a preferred hosting location?
+
+## You
+
+* would you like your name displayed the same as your github profile?
+
+* do you have a twitter handle that you would like displayed on the site?

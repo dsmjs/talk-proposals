@@ -38,6 +38,15 @@
 
 * do you have a preferred hosting location?
 
+## Presentation
+
+* will you be presenting from a mac or windows machine? (this gives us an idea
+  of what options are available to connect to the presentation equipment)
+
+* are the ports available limited in any way?
+
+* do you have your own adapters for connecting to a projector, etc?
+
 ## You
 
 * would you like your name displayed the same as your github profile?

@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "commitlint-config-dsmjs": "1.0.11",
-    "cz-conventional-changelog": "3.0.0",
+    "cz-conventional-changelog": "3.0.1",
     "globstar": "1.0.0",
     "husky": "3.0.1",
     "markdownlint-cli": "0.17.0",

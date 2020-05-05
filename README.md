@@ -4,6 +4,7 @@ Submit proposals for topics that you would like to learn about or that you would
 like to present about
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Dependabot][dependabot-badge]][dependabot-link]
 
 ## Who should speak at dsmJS?
 
@@ -33,3 +34,7 @@ lines of the following to occur:
 1. __Publish details on the site__: Once a date is chosen, you can either submit
    the details about the talk in the thread, or you can submit the details as a
    PR to the site repo.
+
+[dependabot-link]: https://dependabot.com/
+
+[dependabot-badge]: https://badgen.net/dependabot/dsmjs/cli/?icon=dependabot

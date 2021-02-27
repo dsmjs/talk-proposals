@@ -18,7 +18,7 @@
     }
   },
   "devDependencies": {
-    "commitlint-config-dsmjs": "1.0.23",
+    "commitlint-config-dsmjs": "1.0.24",
     "cz-conventional-changelog": "3.3.0",
     "globstar": "1.0.0",
     "husky": "5.1.1",

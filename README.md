@@ -15,7 +15,7 @@ like to present about
   their knowledge with us, so don't hesitate to tell us what you've been up to.
 
 _Note_: If you'd like to give a talk, but don't have a topic in mind, browse the
-[topic requests](https://github.com/dsmjs/talk-proposals/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+label%3A%22topic+request%22)
+[topic requests](https://github.com/dsmjs/talk-proposals/issues?utf8=%E2%9C%93\&q=is%3Aopen+is%3Aissue+label%3A%22topic+request%22)
 from other members.
 
 ## The process
@@ -38,3 +38,7 @@ lines of the following to occur:
 [dependabot-link]: https://dependabot.com/
 
 [dependabot-badge]: https://badgen.net/dependabot/dsmjs/cli/?icon=dependabot
+
+[github-actions-ci-link]: https://github.com/dsmjs/talk-proposals/actions?query=workflow%3A%22Node.js+CI%22+branch%3Amaster
+
+[github-actions-ci-badge]: https://github.com/dsmjs/talk-proposals/workflows/Node.js%20CI/badge.svg

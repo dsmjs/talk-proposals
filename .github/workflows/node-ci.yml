@@ -25,7 +25,7 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: npm test
   automerge:
-    needs: release
+    needs: verify
     runs-on: ubuntu-latest
     steps:
       - uses: fastify/github-action-merge-dependabot@v2.0.0

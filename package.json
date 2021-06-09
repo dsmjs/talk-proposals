@@ -10,8 +10,7 @@
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "test": "run-s lint:*",
-    "commitmsg": "commitlint -e",
-    "precommit": "npm test"
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {

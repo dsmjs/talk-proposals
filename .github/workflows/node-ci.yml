@@ -3,7 +3,9 @@ name: Node.js CI
   push:
     branches:
       - master
-      - dependabot/**
+      - alpha
+      - beta
+      - 'dependabot/**'
   pull_request:
     types:
       - opened
@@ -15,20 +17,18 @@ jobs:
   verify:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
+      - uses: actions/checkout@v3
       - name: Setup node
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: ${{ steps.nvm.outputs.NVMRC }}
-      - uses: bahmutov/npm-install@v1
+          node-version-file: '.nvmrc'
+          cache: npm
+      - run: npm clean-install
       - run: npm test
   automerge:
     needs: verify
     runs-on: ubuntu-latest
     steps:
-      - uses: fastify/github-action-merge-dependabot@v2.5.0
+      - uses: fastify/github-action-merge-dependabot@v3
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_PAT }}
